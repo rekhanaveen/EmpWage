@@ -8,9 +8,16 @@ public class EmpWage {
 
         double empCheck = Math.floor(Math.random() *10) %2;
 
-        if(empCheck == IS_PRESENT)
-            System.out.println("Employee Present!!");
+        int avrPayPerDay = 20;
+
+        int empSal = avrPayPerDay * 8;
+
+
+        if (empCheck == IS_PRESENT)
+
+            System.out.println( "Employee Present!! And Salary is : " + empSal);
         else
+
             System.out.println("Employee Absent");
 
 
