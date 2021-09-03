@@ -12,6 +12,8 @@ public class EmpWage {
 
         int empSal = avrPayPerDay * 8;
 
+        System.out.println("Welcome to Programming!!");
+
 
         if (empCheck == IS_PRESENT)
 
